@@ -24,9 +24,9 @@ The development has been carried out with Test Driven Development with 97% code 
 * To Run the application
  * Make sure you have Java 8.
  * Download "anagram-resolver.jar".
- * Open console/Terminal and execute "java -jar anagram-resolver.jar" to run the program.
+ * Open console/Terminal and execute ```java -jar anagram-resolver.jar``` to run the program.
 
 * For Developers
  * Make sure you have Maven installed.
- * It uses maven assembly plugin to generate am executable jar, The jar could be generated with Maven command _"mvn clean compile assembly:single"_
- * Cobertura plugin has been used to generate code covergae report, The report could be reproduced with maven command _"mvn clean cobertura:cobertura"_
+ * It uses maven assembly plugin to generate am executable jar, The jar could be generated with Maven command ```mvn clean compile assembly:single```
+ * Cobertura plugin has been used to generate code covergae report, The report could be reproduced with maven command ```mvn clean cobertura:cobertura```
