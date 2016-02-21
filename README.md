@@ -30,3 +30,9 @@ The development has been carried out with Test Driven Development with 97% code 
  * Make sure you have Maven installed.
  * It uses maven assembly plugin to generate am executable jar, The jar could be generated with Maven command ```mvn clean compile assembly:single```
  * Cobertura plugin has been used to generate code covergae report, The report could be reproduced with maven command ```mvn clean cobertura:cobertura```
+
+### Performance and Design
+* Little part of the Application is inspired by Spring Framework.
+* As far as performance is concerned the application is tested with the input file containing 250 K records, it prints output only in milliseconds.
+* The design is scalable and extendable with implementing Reader and using parallelStream in Anagram.
+* If want to read files in GB’s a new Reader could be implemented using Java NIO - Memory mapped file
